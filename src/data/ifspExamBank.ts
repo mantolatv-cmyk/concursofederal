@@ -140,9 +140,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Picture.",
           "e) Quotation marks."
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         category: "ESP",
-        explanation: "Pictures and images are nonverbal forms of communication used in multimodal texts."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
       },
       {
         id: "2022-p2-q2",
@@ -154,9 +154,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Would like to help the office.",
           "e) Is one of those who invaded the Capitol building in Washington DC on January 6th, 2021."
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         category: "Theories",
-        explanation: "The author mentions she had been waiting with anticipation, like many Black women across the country, for Biden to name his pick."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
       },
       {
         id: "2022-p2-q3",
@@ -168,9 +168,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Her doctor ́s office.",
           "e) Shanti ‘s office."
         ],
-        correctAnswer: 2,
+        correctAnswer: 4,
         category: "Theories",
-        explanation: "Ayanna Pressley was running for office to represent Massachusetts in Congress."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a E."
       },
       {
         id: "2022-p2-q4",
@@ -182,9 +182,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Has been treated in a sexist and disrespectful way at work.",
           "e) Never thought about being a politician."
         ],
-        correctAnswer: 3,
+        correctAnswer: 0,
         category: "Theories",
-        explanation: "The author mentions having to deal with microaggressions and inappropriate comments, indicating disrespectful treatment."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a A."
       },
       {
         id: "2022-p2-q5",
@@ -196,9 +196,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Break the rules.",
           "e) Take the initiative."
         ],
-        correctAnswer: 4,
+        correctAnswer: 1,
         category: "Theories",
-        explanation: "To 'blaze trails' means to be a pioneer or to take the initiative in doing something new."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a B."
       },
       {
         id: "2022-p2-q6",
@@ -212,7 +212,7 @@ export const readingSectionsData: ReadingSection[] = [
         ],
         correctAnswer: 2,
         category: "Grammar",
-        explanation: "Option C correctly transforms the direct quote into indirect speech, using the reporting verb 'said' and dropping the quotation marks."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
       }
     ]
   },
