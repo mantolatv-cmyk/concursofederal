@@ -42,7 +42,16 @@ export const readingSectionsData: ReadingSection[] = [
     ,
       { word: "Surges", translation: "Surtos / Aumentos rápidos" },
       { word: "Animosity", translation: "Animosidade / Hostilidade" },
-      { word: "Diligence", translation: "Diligência / Zelo" }
+      { word: "Diligence", translation: "Diligência / Zelo" },
+      { word: "Crammed", translation: "Apertado / Espremido" },
+      { word: "Reconcile", translation: "Reconciliar / Fazer as pazes" },
+      { word: "Crabby", translation: "Ranzinza / Mal-humorado" },
+      { word: "Resentments", translation: "Ressentimentos / Mágoas" },
+      { word: "Mundane", translation: "Mundano / Banal" },
+      { word: "Flickering", translation: "Cintilante / Tremeluzente" },
+      { word: "Vulnerability", translation: "Vulnerabilidade" },
+      { word: "Longing", translation: "Anseio / Desejo" },
+      { word: "Exhilarated", translation: "Excitado / Animado" }
     ],
     openQuestions: [
       "In what ways did the pandemic unexpectedly create positive habits for the author's family?",
@@ -122,7 +131,17 @@ export const readingSectionsData: ReadingSection[] = [
       { word: "Scrutiny", translation: "Escrutínio / Análise minuciosa" },
       { word: "Resilience", translation: "Resiliência / Capacidade de recuperação" },
       { word: "Burden", translation: "Fardo / Carga" },
-      { word: "Underrepresented", translation: "Sub-representado" }
+      { word: "Underrepresented", translation: "Sub-representado" },
+      { word: "Exponentially", translation: "Exponencialmente" },
+      { word: "Handful", translation: "Punhado / Poucos" },
+      { word: "Contend with", translation: "Lidar com / Enfrentar" },
+      { word: "Microaggressions", translation: "Microagressões" },
+      { word: "Glimpse", translation: "Vislumbre" },
+      { word: "Viable", translation: "Viável" },
+      { word: "Disproportionate", translation: "Desproporcional" },
+      { word: "Vying", translation: "Competindo / Disputando" },
+      { word: "Guise", translation: "Disfarce / Pretexto" },
+      { word: "Ubiquitous", translation: "Ubíquo / Onipresente" }
     ],
     openQuestions: [
       "What does the author mean by the 'inescapable exhaustion of being the first'?",
