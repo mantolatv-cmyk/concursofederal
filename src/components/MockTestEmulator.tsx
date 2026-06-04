@@ -225,7 +225,7 @@ export function MockTestEmulator() {
                             <span className="text-xs font-bold uppercase tracking-wider text-text-muted">Question {qIdx + 1}</span>
                             <Badge variant="outline" size="sm">{q.category}</Badge>
                           </div>
-                          <p className="text-[15px] font-medium leading-relaxed mb-4">{q.text}</p>
+                          <p className="text-[15px] font-medium leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: q.text }} />
                           
                           <div className="space-y-2 mb-4">
                             {q.options.map((opt, oIdx) => {
@@ -373,9 +373,7 @@ export function MockTestEmulator() {
             <div className="flex items-center gap-2 mb-4">
               <Badge variant="default" size="sm">Q{qIdx + 1}</Badge>
             </div>
-            <p className="text-lg font-medium leading-relaxed mb-6 text-text-primary">
-              {q.text}
-            </p>
+            <p className="text-lg font-medium leading-relaxed mb-6 text-text-primary" dangerouslySetInnerHTML={{ __html: q.text }} />
             
             <div className="space-y-3">
               {q.options.map((opt, oIdx) => {
