@@ -35,13 +35,7 @@ export function MockTestEmulator() {
   const totalQuestions = sections.reduce((acc, sec) => acc + sec.questions.length, 0)
 
   useEffect(() => {
-    // Shuffle sections and shuffle questions within sections
-    const shuffledSections = [...readingSectionsData].sort(() => Math.random() - 0.5)
-    const randomized = shuffledSections.map(sec => ({
-      ...sec,
-      questions: [...sec.questions].sort(() => Math.random() - 0.5)
-    }))
-    setSections(randomized)
+    setSections([...readingSectionsData])
   }, [])
 
   const toggleVocab = (word: string) => {
@@ -67,12 +61,7 @@ export function MockTestEmulator() {
     setCurrentSectionIdx(0)
     setAnswers({})
     
-    const shuffledSections = [...readingSectionsData].sort(() => Math.random() - 0.5)
-    const randomized = shuffledSections.map(sec => ({
-      ...sec,
-      questions: [...sec.questions].sort(() => Math.random() - 0.5)
-    }))
-    setSections(randomized)
+    setSections([...readingSectionsData])
   }
 
   if (!hasStarted) {
