@@ -155,7 +155,7 @@ export const readingSectionsData: ReadingSection[] = [
           "e) Is one of those who invaded the Capitol building in Washington DC on January 6th, 2021."
         ],
         correctAnswer: 0,
-        category: "Reading Comprehension",
+        category: "Theories",
         explanation: "The author mentions she had been waiting with anticipation, like many Black women across the country, for Biden to name his pick."
       },
       {
@@ -169,7 +169,7 @@ export const readingSectionsData: ReadingSection[] = [
           "e) Shanti ‘s office."
         ],
         correctAnswer: 2,
-        category: "Vocabulary",
+        category: "Theories",
         explanation: "Ayanna Pressley was running for office to represent Massachusetts in Congress."
       },
       {
@@ -183,7 +183,7 @@ export const readingSectionsData: ReadingSection[] = [
           "e) Never thought about being a politician."
         ],
         correctAnswer: 3,
-        category: "Reading Comprehension",
+        category: "Theories",
         explanation: "The author mentions having to deal with microaggressions and inappropriate comments, indicating disrespectful treatment."
       },
       {
@@ -197,7 +197,7 @@ export const readingSectionsData: ReadingSection[] = [
           "e) Take the initiative."
         ],
         correctAnswer: 4,
-        category: "Vocabulary",
+        category: "Theories",
         explanation: "To 'blaze trails' means to be a pioneer or to take the initiative in doing something new."
       },
       {
