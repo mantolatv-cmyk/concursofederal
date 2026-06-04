@@ -160,7 +160,7 @@ export const readingSectionsData: ReadingSection[] = [
       },
       {
         id: "2022-p2-q3",
-        text: "In: “...we bonded over our Senegalese twists and she told me that while running for <b>office</b> she had many conversations...” (Paragraph 08). The word in bold means, in the context:",
+        text: "In: “...we bonded over our Senegalese twists and she told me that while running for <span style=\"color: #10b981; font-weight: 600;\">office</span> she had many conversations...” (Paragraph 08). The word in bold means, in the context:",
         options: [
           "a) Her office in her house.",
           "b) The Podcast.",
@@ -188,7 +188,7 @@ export const readingSectionsData: ReadingSection[] = [
       },
       {
         id: "2022-p2-q5",
-        text: "In “...I know firsthand how Black women in government struggle to find mentorship and guidance on these unique challenges, and yet, they continue to <b>blaze trails</b> and break down barriers despite ...” (Last Paragraph).<br/>The words in bold, in the context, mean:",
+        text: "In “...I know firsthand how Black women in government struggle to find mentorship and guidance on these unique challenges, and yet, they continue to <span style=\"color: #10b981; font-weight: 600;\">blaze trails</span> and break down barriers despite ...” (Last Paragraph).<br/>The words in bold, in the context, mean:",
         options: [
           "a) Asking for.",
           "b) Talk to somebody.",
