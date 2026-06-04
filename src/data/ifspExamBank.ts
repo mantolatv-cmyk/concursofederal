@@ -60,9 +60,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) “…Many of us have developed habits of isolation and worry.”",
           "e) “…M y family and I have taken up that I hope we continue…”"
         ],
-        correctAnswer: 2,
+        correctAnswer: 4,
         category: "Grammar",
-        explanation: "Option C ('would have been') is an example of a modal verb in the perfect conditional, not the present perfect tense."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a E."
       },
       {
         id: "2022-p1-q27",
@@ -88,9 +88,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Alliteration.",
           "e) Anaphora."
         ],
-        correctAnswer: 3,
+        correctAnswer: 0,
         category: "Grammar",
-        explanation: "Both 'human and humanizing' and 'flickering flames' demonstrate the repetition of initial consonant sounds, which defines alliteration."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a A."
       },
       {
         id: "2022-p1-newq",
@@ -102,9 +102,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) “...More able to offer and receive love, and more able to make it through the day...” (Paragraph 09).",
           "e) “... With city playgrounds shut down and a longing to be out of the house...” (Paragraph 14)."
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         category: "Grammar",
-        explanation: "In option D, 'make it through' is an idiomatic expression, whereas the others contain clear phrasal verbs (pick up, take up, hang out, shut down)."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a B."
       }
     ]
   },
