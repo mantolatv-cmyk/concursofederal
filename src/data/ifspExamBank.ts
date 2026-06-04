@@ -91,6 +91,20 @@ export const readingSectionsData: ReadingSection[] = [
         correctAnswer: 3,
         category: "Grammar",
         explanation: "Both 'human and humanizing' and 'flickering flames' demonstrate the repetition of initial consonant sounds, which defines alliteration."
+      },
+      {
+        id: "2022-p1-newq",
+        text: "Phrasal Verbs are in the sentences below, except:",
+        options: [
+          "a) “...Yet I suspect most of us have also picked up some good habits and practices...” (Paragraph 06).",
+          "b) “...My family and I have taken up that I hope to continue...” (Paragraph 07).",
+          "c) “... So, we hung out around the fire...” (Paragraph 13).",
+          "d) “...More able to offer and receive love, and more able to make it through the day...” (Paragraph 09).",
+          "e) “... With city playgrounds shut down and a longing to be out of the house...” (Paragraph 14)."
+        ],
+        correctAnswer: 3,
+        category: "Grammar",
+        explanation: "In option D, 'make it through' is an idiomatic expression, whereas the others contain clear phrasal verbs (pick up, take up, hang out, shut down)."
       }
     ]
   },
