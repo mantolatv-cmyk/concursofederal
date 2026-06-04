@@ -143,6 +143,76 @@ export const readingSectionsData: ReadingSection[] = [
         correctAnswer: 3,
         category: "ESP",
         explanation: "Pictures and images are nonverbal forms of communication used in multimodal texts."
+      },
+      {
+        id: "2022-p2-q2",
+        text: "The first paragraph implies that the author:",
+        options: [
+          "a) Is part of the group of black women interested in the future of the supreme court.",
+          "b) Has no idea what has happened and why phone was ringing.",
+          "c) Is a white woman against Biden’s decision.",
+          "d) Would like to help the office.",
+          "e) Is one of those who invaded the Capitol building in Washington DC on January 6th, 2021."
+        ],
+        correctAnswer: 0,
+        category: "Reading Comprehension",
+        explanation: "The author mentions she had been waiting with anticipation, like many Black women across the country, for Biden to name his pick."
+      },
+      {
+        id: "2022-p2-q3",
+        text: "In: “...we bonded over our Senegalese twists and she told me that while running for office she had many conversations...” (Paragraph 08). The word in bold means, in the context:",
+        options: [
+          "a) Her office in her house.",
+          "b) The Podcast.",
+          "c) The US Congress.",
+          "d) Her doctor ́s office.",
+          "e) Shanti ‘s office."
+        ],
+        correctAnswer: 2,
+        category: "Vocabulary",
+        explanation: "Ayanna Pressley was running for office to represent Massachusetts in Congress."
+      },
+      {
+        id: "2022-p2-q4",
+        text: "In Paragraph 05, it seems that the author:",
+        options: [
+          "a) Knows everybody respects her at work.",
+          "b) Doesn’t like to be a politician.",
+          "c) Rejects the idea of working where she does.",
+          "d) Has been treated in a sexist and disrespectful way at work.",
+          "e) Never thought about being a politician."
+        ],
+        correctAnswer: 3,
+        category: "Reading Comprehension",
+        explanation: "The author mentions having to deal with microaggressions and inappropriate comments, indicating disrespectful treatment."
+      },
+      {
+        id: "2022-p2-q5",
+        text: "In “...I know firsthand how Black women in government struggle to find mentorship and guidance on these unique challenges, and yet, they continue to blaze trails and break down barriers despite ...” (Last Paragraph).\nThe words in bold, in the context, mean:",
+        options: [
+          "a) Asking for.",
+          "b) Talk to somebody.",
+          "c) Listen carefully.",
+          "d) Break the rules.",
+          "e) Take the initiative."
+        ],
+        correctAnswer: 4,
+        category: "Vocabulary",
+        explanation: "To 'blaze trails' means to be a pioneer or to take the initiative in doing something new."
+      },
+      {
+        id: "2022-p2-q6",
+        text: "“No one ever complains about a speech being too short!” This famous quote belongs to Ira Hayes. From the given alternatives, choose the one which best expresses the given sentence from Hayes using indirect speech:",
+        options: [
+          "a) Ira Hayes had said, “No one ever complains about a speech being too short!”",
+          "b) Ira Hayes says: “No one ever complains about a speech being too long!”",
+          "c) Ira Hayes said that no one ever complains about a speech being too short.",
+          "d) Ira Hayes once said it is better to talk less in when giving a speech.",
+          "e) Ira Hayes is saying that no one ever complains about a speech being too short."
+        ],
+        correctAnswer: 2,
+        category: "Grammar",
+        explanation: "Option C correctly transforms the direct quote into indirect speech, using the reporting verb 'said' and dropping the quotation marks."
       }
     ]
   },
