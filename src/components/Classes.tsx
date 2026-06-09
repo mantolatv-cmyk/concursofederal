@@ -28,7 +28,7 @@ export function Classes() {
 
         <article className="bg-surface-0 border border-border-default rounded-2xl overflow-hidden shadow-sm">
           {/* Header */}
-          <header className="px-8 py-10 bg-surface-1 border-b border-border-default">
+          <header className="px-5 md:px-8 py-8 md:py-10 bg-surface-1 border-b border-border-default">
             <div className="flex items-center gap-3 mb-6">
               <Badge variant="outline" size="sm" className="bg-primary-muted/20 border-primary-500/30 text-primary-400">
                 <PenLine size={14} className="mr-1.5" />
@@ -40,7 +40,7 @@ export function Classes() {
             </h1>
           </header>
 
-          <div className="p-8 md:p-12 space-y-12">
+          <div className="p-5 md:p-12 space-y-8 md:space-y-12">
             
             {/* IFSP Focus */}
             <div className="bg-warning-muted/20 border border-warning-500/30 rounded-xl p-6">
@@ -116,7 +116,7 @@ export function Classes() {
             className="group cursor-pointer hover:border-primary-400 transition-all duration-300"
             onClick={() => setSelectedTopic(topic)}
           >
-            <div className="p-6">
+            <div className="p-5 md:p-6">
               <div className="flex justify-between items-start mb-6">
                 <div className="w-12 h-12 rounded-xl bg-surface-2 border border-border-default flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-colors">
                   <BookOpen size={20} />

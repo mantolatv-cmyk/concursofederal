@@ -23,59 +23,73 @@ const navItems = [
 export function Sidebar({ activeTab, onTabChange, isOpen, onToggle }: SidebarProps) {
   return (
     <>
-      {/* Mobile overlay scrim — §4: blur-purpose (background dismissal) */}
+      {/* Mobile Top Bar */}
+      <div 
+        className="fixed top-0 left-0 right-0 h-14 bg-surface-1/90 backdrop-blur-md border-b border-border-subtle md:hidden flex items-center justify-between px-4 transition-all" 
+        style={{ zIndex: 40 }}
+      >
+        <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-purple-500 shadow-sm">
+            <GraduationCap size={16} className="text-white" />
+          </div>
+          <h1 className="text-[15px] font-bold text-text-primary tracking-tight">
+            ConcursoFederal
+          </h1>
+        </div>
+        <button
+          onClick={onToggle}
+          aria-label="Open navigation"
+          className="h-10 w-10 flex items-center justify-center rounded-lg text-text-secondary hover:text-text-primary hover:bg-surface-2 transition-all duration-fast cursor-pointer active:scale-95 focus-ring"
+        >
+          <Menu size={22} />
+        </button>
+      </div>
+
+      {/* Mobile overlay scrim */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm md:hidden"
-          style={{ zIndex: 'var(--z-overlay)' }}
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm md:hidden"
+          style={{ zIndex: 50 }}
           onClick={onToggle}
           aria-hidden="true"
         />
       )}
 
-      {/* Mobile toggle — §2: ≥44px touch target */}
-      <button
-        onClick={onToggle}
-        aria-label={isOpen ? 'Close navigation' : 'Open navigation'}
-        className={cn(
-          'fixed top-4 left-4 md:hidden',
-          'h-11 w-11 flex items-center justify-center',
-          'rounded-lg glass-surface shadow-md',
-          'text-text-secondary hover:text-text-primary',
-          'transition-all duration-fast cursor-pointer',
-          'active:scale-95 focus-ring',
-        )}
-        style={{ zIndex: 'var(--z-modal)' }}
-      >
-        {isOpen ? <X size={18} /> : <Menu size={18} />}
-      </button>
-
-      {/* Sidebar — §9: persistent-nav, adaptive-navigation */}
+      {/* Sidebar */}
       <aside
         className={cn(
           'fixed md:sticky top-0 left-0 h-screen h-[100dvh] flex flex-col',
-          'w-[264px] bg-surface-1 border-r border-border-subtle',
+          'w-[280px] md:w-[264px] bg-surface-1 border-r border-border-subtle',
           'transition-transform duration-300 ease-out',
           'md:translate-x-0',
           isOpen ? 'translate-x-0' : '-translate-x-full',
         )}
-        style={{ zIndex: 'var(--z-overlay)' }}
+        style={{ zIndex: 51 }}
         role="navigation"
         aria-label="Main navigation"
       >
         {/* Brand */}
-        <div className="flex items-center gap-3 px-5 h-16 border-b border-border-subtle flex-shrink-0">
-          <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-primary-500 to-accent-purple-500 shadow-sm">
-            <GraduationCap size={18} className="text-white" />
+        <div className="flex items-center justify-between px-5 h-14 md:h-16 border-b border-border-subtle flex-shrink-0">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-primary-500 to-accent-purple-500 shadow-sm flex-shrink-0">
+              <GraduationCap size={18} className="text-white" />
+            </div>
+            <div className="min-w-0">
+              <h1 className="text-[13px] font-bold text-text-primary tracking-tight leading-tight truncate">
+                ConcursoFederal
+              </h1>
+              <p className="text-[9px] font-semibold text-text-muted uppercase tracking-[0.15em]">
+                Professor EBTT
+              </p>
+            </div>
           </div>
-          <div className="min-w-0">
-            <h1 className="text-[13px] font-bold text-text-primary tracking-tight leading-tight truncate">
-              ConcursoFederal
-            </h1>
-            <p className="text-[9px] font-semibold text-text-muted uppercase tracking-[0.15em]">
-              Professor EBTT
-            </p>
-          </div>
+          <button 
+            onClick={onToggle} 
+            className="md:hidden p-2 -mr-2 text-text-muted hover:text-text-primary rounded-lg hover:bg-surface-2 transition-colors"
+            aria-label="Close navigation"
+          >
+            <X size={20} />
+          </button>
         </div>
 
         {/* Nav items — §9: nav-label-icon, nav-state-active */}

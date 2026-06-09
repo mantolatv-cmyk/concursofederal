@@ -272,7 +272,7 @@ export function MockTestEmulator() {
   return (
     <div className="max-w-4xl mx-auto pb-24 animate-fade-in">
       {/* Exam Header Pinned */}
-      <div className="sticky top-0 z-10 bg-surface-0/80 backdrop-blur-md pb-6 pt-4 mb-2">
+      <div className="sticky top-14 md:top-0 z-10 bg-surface-0/80 backdrop-blur-md pb-4 md:pb-6 pt-4 mb-2">
         <div className="flex items-center justify-between px-6 py-4 bg-surface-2 border border-border-default shadow-sm rounded-xl">
           <div className="flex items-center gap-4">
             <div className="font-bold text-lg">Text {currentSectionIdx + 1} of {sections.length}</div>
@@ -285,7 +285,7 @@ export function MockTestEmulator() {
       </div>
 
       {/* Reading Passage */}
-      <Card className="mb-8 p-6 md:p-8 bg-surface-1 border-border-default">
+      <Card className="mb-8 p-4 md:p-8 bg-surface-1 border-border-default">
         <h3 className="text-2xl font-bold mb-6 text-text-primary border-b border-border-default pb-4">
           {currentSection.passageTitle}
         </h3>
@@ -346,7 +346,7 @@ export function MockTestEmulator() {
             <MessageCircleQuestion size={20} />
             Open Questions for Practice
           </h4>
-          <Card className="p-6 bg-surface-1 border-border-default">
+          <Card className="p-4 md:p-6 bg-surface-1 border-border-default">
             <div className="space-y-6">
               {currentSection.openQuestions.map((oq, idx) => (
                 <div key={idx} className="flex gap-3">
@@ -369,7 +369,7 @@ export function MockTestEmulator() {
         </h4>
         
         {currentSection.questions.map((q, qIdx) => (
-          <Card key={q.id} className="p-6 bg-surface-1 border-border-default">
+          <Card key={q.id} className="p-4 md:p-6 bg-surface-1 border-border-default">
             <div className="flex items-center gap-2 mb-4">
               <Badge variant="default" size="sm">Q{qIdx + 1}</Badge>
             </div>

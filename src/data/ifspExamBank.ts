@@ -69,9 +69,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) “…Many of us have developed habits of isolation and worry.”",
           "e) “…M y family and I have taken up that I hope we continue…”"
         ],
-        correctAnswer: 4,
+        correctAnswer: 2,
         category: "Grammar",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a E."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
       },
       {
         id: "2022-p1-q27",
@@ -97,13 +97,13 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Alliteration.",
           "e) Anaphora."
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         category: "Grammar",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a A."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a D."
       },
       {
         id: "2022-p1-newq",
-        text: "Phrasal Verbs are in the sentences below, except:",
+        text: "Phrasal Verbs are in the sentences below, except: (QUESTÃO ANULADA)",
         options: [
           "a) “...Yet I suspect most of us have also picked up some good habits and practices...” (Paragraph 06).",
           "b) “...My family and I have taken up that I hope to continue...” (Paragraph 07).",
@@ -111,9 +111,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) “...More able to offer and receive love, and more able to make it through the day...” (Paragraph 09).",
           "e) “... With city playgrounds shut down and a longing to be out of the house...” (Paragraph 14)."
         ],
-        correctAnswer: 1,
+        correctAnswer: -1,
         category: "Grammar",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a B."
+        explanation: "Questão anulada no gabarito oficial definitivo."
       }
     ]
   },
@@ -159,9 +159,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Picture.",
           "e) Quotation marks."
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         category: "ESP",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a D."
       },
       {
         id: "2022-p2-q2",
@@ -173,13 +173,13 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Would like to help the office.",
           "e) Is one of those who invaded the Capitol building in Washington DC on January 6th, 2021."
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         category: "Theories",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a C."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a A."
       },
       {
         id: "2022-p2-q3",
-        text: "In: “...we bonded over our Senegalese twists and she told me that while running for <span style=\"color: #10b981; font-weight: 600;\">office</span> she had many conversations...” (Paragraph 08). The word in bold means, in the context:",
+        text: "In: “...we bonded over our Senegalese twists and she told me that while running for <span style=\"color: #10b981; font-weight: 600;\">office</span> she had many conversations...” (Paragraph 08). The word in bold means, in the context: (QUESTÃO ANULADA)",
         options: [
           "a) Her office in her house.",
           "b) The Podcast.",
@@ -187,9 +187,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Her doctor ́s office.",
           "e) Shanti ‘s office."
         ],
-        correctAnswer: 4,
+        correctAnswer: -1,
         category: "Theories",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a E."
+        explanation: "Questão anulada no gabarito oficial definitivo."
       },
       {
         id: "2022-p2-q4",
@@ -201,9 +201,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Has been treated in a sexist and disrespectful way at work.",
           "e) Never thought about being a politician."
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         category: "Theories",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a A."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a D."
       },
       {
         id: "2022-p2-q5",
@@ -215,9 +215,9 @@ export const readingSectionsData: ReadingSection[] = [
           "d) Break the rules.",
           "e) Take the initiative."
         ],
-        correctAnswer: 1,
+        correctAnswer: 4,
         category: "Theories",
-        explanation: "De acordo com o gabarito oficial, a alternativa correta é a B."
+        explanation: "De acordo com o gabarito oficial, a alternativa correta é a E."
       },
       {
         id: "2022-p2-q6",
